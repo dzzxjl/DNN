@@ -1,5 +1,9 @@
-- 数据挖掘
+- DT
+- GBDT
 - xgboost
+
+- SVM
+
 ## xgboost在Mac下安装过程
 - 创建安装目录
 - git clone --recursive https://github.com/dmlc/xgboost **循环git操作**
