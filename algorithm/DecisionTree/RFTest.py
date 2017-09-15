@@ -1,7 +1,7 @@
 from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 
-X= np.array([[-1,-1],[-2,-1],[1,1],[2,1]])
+X = np.array([[-1,-1],[-2,-1],[1,1],[2,1]])
 y = np.array([1,1,2,2])
 
 clf = RandomForestClassifier(n_estimators=10)
