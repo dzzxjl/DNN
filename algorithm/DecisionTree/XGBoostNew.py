@@ -15,6 +15,7 @@ from matplotlib import pyplot
 
 
 
+
 file = '/Users/dzzxjl/Desktop/' + 'pima-indians-diabetes.csv'
 
 dataset = loadtxt(file, delimiter=",")
@@ -34,11 +35,57 @@ X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=test_size, r
 # 2 - 76.77%, 3-77.95, 4- 75.98 5-75.20 6
 
 
+'''
+参数列表Parameters
+max_depth : int
+Maximum tree depth for base learners.
 
+learning_rate : float #learning_rate ＝ 0.1 或更小，越小就需要多加入弱学习器
+Boosting learning rate (xgb’s “eta”)
+n_estimators : int
+Number of boosted trees to fit.
+silent : boolean
+Whether to print messages while running boosting.
+objective : string or callable
+Specify the learning task and the corresponding learning objective or a custom objective function to be used (see note below).
+booster: string
+Specify which booster to use: gbtree, gblinear or dart.
+nthread : int
+Number of parallel threads used to run xgboost. (Deprecated, please use n_jobs)
+n_jobs : int
+Number of parallel threads used to run xgboost. (replaces nthread)
+gamma : float
+Minimum loss reduction required to make a further partition on a leaf node of the tree.
+min_child_weight : int
+Minimum sum of instance weight(hessian) needed in a child.
+max_delta_step : int
+Maximum delta step we allow each tree’s weight estimation to be.
+subsample : float
+Subsample ratio of the training instance.
+colsample_bytree : float
+Subsample ratio of columns when constructing each tree.
+colsample_bylevel : float
+Subsample ratio of columns for each split, in each level.
+reg_alpha : float (xgb’s alpha)
+L1 regularization term on weights
+reg_lambda : float (xgb’s lambda)
+L2 regularization term on weights
+scale_pos_weight : float
+Balancing of positive and negative weights.
+base_score:
+The initial prediction score of all instances, global bias.
+seed : int
+Random number seed. (Deprecated, please use random_state)
+random_state : int
+Random number seed. (replaces seed)
+missing : float, optional
+Value in the data which needs to be present as a missing value. If None, defaults to np.nan.
+
+'''
 
 
 def temp_predict(max_depth_num):
-    model = XGBClassifier(learning_rate=0.1, max_depth=max_depth_num)
+    model = XGBClassifier(learning_rate=0.1, max_depth=max_depth_num, booster='gbtree')
     # eval_set = [(X_test, y_test)]
     # model.fit(X_train, y_train, early_stopping_rounds=10, eval_metric="logloss", eval_set=eval_set, verbose=True)
 
@@ -68,5 +115,5 @@ def temp_predict(max_depth_num):
 树的高度为 8   Accuracy: 75.20%
 '''
 
-for i in range(2, 9):
+for i in range(2, 3):
     temp_predict(i)
