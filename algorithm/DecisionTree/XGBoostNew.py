@@ -79,7 +79,7 @@ Random number seed. (Deprecated, please use random_state)
 random_state : int
 Random number seed. (replaces seed)
 missing : float, optional
-Value in the data which needs to be present as a missing value. If None, defaults to np.nan.
+Value in the input which needs to be present as a missing value. If None, defaults to np.nan.
 
 '''
 
@@ -104,6 +104,8 @@ def temp_predict(max_depth_num):
 
     accuracy = accuracy_score(y_test, predictions)
     print("树的高度为", max_depth_num, "  Accuracy: %.2f%%" % (accuracy * 100.0))
+
+
 
 '''
 树的高度为 2   Accuracy: 76.77%
