@@ -1,4 +1,6 @@
 from sklearn import tree
+from matplotlib.colors import ListedColormap
+import matplotlib.pyplot as plt
 import numpy as np
 
 # 尝试直接使用样本，代替样本提取出来的向量
