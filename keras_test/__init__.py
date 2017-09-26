@@ -28,6 +28,7 @@ model.add(Dense(units=12, input_dim=8, init='uniform', activation='relu'))
 model.add(Dense(units=8, init='uniform', activation='relu'))
 model.add(Dense(units=4, init='uniform', activation='relu'))
 model.add(Dense(units=1, init='uniform', activation='sigmoid'))
+# model.add(Dense)
 # Compile model 编译模型
 
 
