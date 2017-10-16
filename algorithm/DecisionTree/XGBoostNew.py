@@ -3,7 +3,7 @@ from xgboost import XGBClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 from sklearn import tree
-from xgboost import plot_importance
+[]
 from matplotlib import pyplot
 
 '''
@@ -12,9 +12,6 @@ from matplotlib import pyplot
 来判断病人是否会在 5 年内患糖尿病，
 这个数据前 8 列是变量，最后一列是预测值为 0 或 1
 '''
-
-
-
 
 file = '/Users/dzzxjl/Desktop/' + 'pima-indians-diabetes.csv'
 
