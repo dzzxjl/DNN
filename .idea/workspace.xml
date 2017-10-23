@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="102e3f64-ceb7-4746-a674-f1b99dbdff38" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/algorithm/DecisionTree/RandomForest.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/algorithm/DecisionTree/RFTest.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/algorithm/DecisionTree/temp.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/algorithm/dnn_test.py" afterPath="$PROJECT_DIR$/dnn_test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cv2_test/cv2_test.ipynb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/algorithm/DecisionTree/XGBoostTest.py" afterPath="$PROJECT_DIR$/algorithm/DecisionTree/XGBoostTest.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.ipynb" afterPath="$PROJECT_DIR$/main.ipynb" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +20,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spark_test.ipynb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spark/spark_test.ipynb">
-          <provider selected="true" editor-type-id="ipnb-editor">
-            <state>
-              <selected id="0" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RandomForest.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/RandomForest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="0">
               <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
@@ -46,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/dnn_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="114">
-              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,11 +51,62 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svm_test.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="svm_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/svm_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cv2_test.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cv2_test/cv2_test.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.ipynb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/numpy_pandas_test/test.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="0" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XGBoostTest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/XGBoostTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pandas_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/numpy_pandas_test/pandas_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -74,8 +115,8 @@
       <file leaf-file-name="XGBoostNew.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/XGBoostNew.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2090">
-              <caret line="114" column="3" lean-forward="false" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+            <state relative-caret-position="1368">
+              <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -96,6 +137,7 @@
       <find>Y</find>
       <find>label</find>
       <find>116</find>
+      <find>isnull</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -104,11 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/TensorFlow_test/temp.py" />
-        <option value="$PROJECT_DIR$/Pandas学习/temp.ipynb" />
-        <option value="$PROJECT_DIR$/Pandas学习/test.ipynb" />
-        <option value="$PROJECT_DIR$/Pandas学习/temp.py" />
-        <option value="$PROJECT_DIR$/Pandas学习/titanc_test.ipynb" />
         <option value="$PROJECT_DIR$/Pandas学习/analysis/titanc_test.ipynb" />
         <option value="$PROJECT_DIR$/titanic_test/analysis/temp.py" />
         <option value="$PROJECT_DIR$/ImageRecognition.py" />
@@ -139,7 +176,6 @@
         <option value="$PROJECT_DIR$/tf_test/mnist_test.ipynb" />
         <option value="$PROJECT_DIR$/tf_test/__init__.py" />
         <option value="$PROJECT_DIR$/titanic_test/analysis/analysis_1.ipynb" />
-        <option value="$PROJECT_DIR$/main.ipynb" />
         <option value="$PROJECT_DIR$/titanic_test/analysis/keras_test.ipynb" />
         <option value="$PROJECT_DIR$/house_price/input/train.csv" />
         <option value="$PROJECT_DIR$/house_price/second.py" />
@@ -155,6 +191,12 @@
         <option value="$PROJECT_DIR$/spark/spark_test.ipynb" />
         <option value="$PROJECT_DIR$/algorithm/DecisionTree/RFTest.py" />
         <option value="$PROJECT_DIR$/algorithm/DecisionTree/temp.py" />
+        <option value="$PROJECT_DIR$/algorithm/DecisionTree/XGBoostTest.py" />
+        <option value="$PROJECT_DIR$/main.ipynb" />
+        <option value="$PROJECT_DIR$/cv2/cv2.py" />
+        <option value="$PROJECT_DIR$/cv2/cv2.ipynb" />
+        <option value="$PROJECT_DIR$/cv2/cv2_test.ipynb" />
+        <option value="$PROJECT_DIR$/cv2_test/cv2_test.ipynb" />
       </list>
     </option>
   </component>
@@ -182,6 +224,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -192,20 +236,12 @@
             <path>
               <item name="tianchi" type="b2602c69:ProjectViewProjectNode" />
               <item name="tianchi" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tianchi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tianchi" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="DecisionTree" type="462c0819:PsiDirectoryNode" />
+              <item name="cv2_test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,7 +275,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.temp">
+  <component name="RunManager" selected="Python.XGBoostTest">
     <configuration name="RFTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,6 +293,40 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="XGBoostNew" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/DecisionTree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tianchi" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/DecisionTree/XGBoostNew.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="XGBoostTest" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/algorithm/DecisionTree" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="tianchi" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/algorithm/DecisionTree/XGBoostTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -270,23 +340,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="tianchi" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/keras_test/__init__.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyTorch_test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tianchi" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyTorch_test/__init__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -358,23 +411,6 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
-    <configuration name="code (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="tianchi" />
-      <option name="SCRIPT_NAME" value="/code.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="mian" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,19 +464,19 @@
     <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Jupyter Notebook.tianchi" />
       <item index="1" class="java.lang.String" itemvalue="Python.mian" />
-      <item index="2" class="java.lang.String" itemvalue="Python.__init__" />
-      <item index="3" class="java.lang.String" itemvalue="Python.__init__ (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.code (1)" />
-      <item index="5" class="java.lang.String" itemvalue="Python.RFTest" />
-      <item index="6" class="java.lang.String" itemvalue="Python.temp" />
+      <item index="2" class="java.lang.String" itemvalue="Python.__init__ (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.RFTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python.temp" />
+      <item index="5" class="java.lang.String" itemvalue="Python.XGBoostTest" />
+      <item index="6" class="java.lang.String" itemvalue="Python.XGBoostNew" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.temp" />
-        <item index="1" class="java.lang.String" itemvalue="Python.RFTest" />
-        <item index="2" class="java.lang.String" itemvalue="Python.__init__ (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Python.code (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="0" class="java.lang.String" itemvalue="Python.XGBoostTest" />
+        <item index="1" class="java.lang.String" itemvalue="Python.XGBoostNew" />
+        <item index="2" class="java.lang.String" itemvalue="Python.temp" />
+        <item index="3" class="java.lang.String" itemvalue="Python.RFTest" />
+        <item index="4" class="java.lang.String" itemvalue="Python.__init__ (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -476,14 +512,14 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19599427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20457797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34340993" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.286578" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32889965" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25513905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7509069" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -515,21 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/keras_test/start_test.py" />
-    <entry file="file://$PROJECT_DIR$/tf_test/mnist_test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tf_test/mnist_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -587,14 +608,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../kaggle/titanic_test/analysis/temp.py">
-      <provider editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
-        </state>
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -606,13 +627,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../kaggle/titanic_test/analysis/analysis_1.py" />
-    <entry file="file://$PROJECT_DIR$/main.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../kaggle/titanic_test/analysis/prediction-ann.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -663,24 +677,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/numpy_pandas_test/pandas_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../kaggle/house_price/second.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
           <selected id="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/numpy_pandas_test/test.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="0" />
         </state>
       </provider>
     </entry>
@@ -721,9 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-          <folding>
-            <element signature="e#34#69#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,7 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -754,7 +749,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -762,15 +756,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30153">
           <caret line="1591" column="38" lean-forward="false" selection-start-line="1591" selection-start-column="38" selection-end-line="1591" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/XGBoostTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,7 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -794,7 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-421">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,14 +802,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/RFTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="49" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/RFTest.py" />
     <entry file="file://$PROJECT_DIR$/spark/spark_test.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -835,17 +810,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/XGBoostNew.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="114" column="3" lean-forward="false" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/RandomForest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="0">
           <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
@@ -856,7 +823,7 @@
     <entry file="file://$PROJECT_DIR$/dnn_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -868,11 +835,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/algorithm/svm_test.py">
+    <entry file="file://$PROJECT_DIR$/numpy_pandas_test/test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numpy_pandas_test/pandas_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="54" lean-forward="false" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/XGBoostNew.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="76" column="35" lean-forward="false" selection-start-line="76" selection-start-column="35" selection-end-line="76" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/DecisionTree/XGBoostTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="3452" column="0" lean-forward="true" selection-start-line="3452" selection-start-column="0" selection-end-line="3452" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cv2/cv2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithm/svm_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cv2_test/cv2_test.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="5" />
         </state>
       </provider>
     </entry>

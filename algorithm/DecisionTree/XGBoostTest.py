@@ -6,12 +6,12 @@ import numpy as np
 
 now = time.time()
 
-dataset = pd.read_csv("/Users/dzzxjl/Desktop/input/train.csv") # 注意自己数据路径
+dataset = pd.read_csv("/Users/dzzxjl/data/MNIST_kaggle/train.csv") # 注意自己数据路径
 
 train = dataset.iloc[:,1:].values
 labels = dataset.iloc[:,:1].values
 
-tests = pd.read_csv("/Users/dzzxjl/Desktop/input/test.csv") # 注意自己数据路径
+tests = pd.read_csv("/Users/dzzxjl/data/MNIST_kaggle/test.csv") # 注意自己数据路径
 #test_id = range(len(tests))
 test = tests.iloc[:,:].values
 
@@ -20,7 +20,7 @@ params={
     'booster':'gbtree',
     # 这里手写数字是0-9，是一个多类的问题，因此采用了multisoft多分类器，
     'objective': 'multi:softmax',
-    'num_class':10, # 类数，与 multisoftmax 并用
+    'num_class':10, # 分类数，与 multisoftmax 并用
     'gamma':0.05,  # 在树的叶子节点下一个分区的最小损失，越大算法模型越保守 。[0:]
     'max_depth':12, # 构建树的深度 [1:]
     #'lambda':450,  # L2 正则项权重
