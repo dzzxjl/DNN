@@ -1,7 +1,7 @@
 import csv
 import re
 import matplotlib.pyplot as plt
-from huapingtu import huabingtu
+from plot_pie import huabingtu
 
 
 '''

@@ -1,6 +1,6 @@
 import matplotlib.pylab as plt
 
-def huabingtu(map):
+def plot_pie(map):
     labels = []
     sizes = []
     for x in map:
