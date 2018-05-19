@@ -61,4 +61,4 @@ np.savetxt('submission_xgb_MultiSoftmax.csv',np.c_[range(1,len(test)+1),preds],
 
 
 cost_time = time.time()-now
-print("end ......",'\n',"cost time:",cost_time,"(s)......")
+print("end ......", '\n', "cost time:", cost_time, "(s)......")

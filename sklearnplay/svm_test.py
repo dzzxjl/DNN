@@ -15,3 +15,6 @@ print(clf.predict([[-0.8,-1]]))
 print(clf.predict([[5,6]]))
 
 print(clf.coef_)
+
+
+from sklearn.ensemble import RandomForestClassifier
