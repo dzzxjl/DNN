@@ -23,7 +23,7 @@ rdm = RandomState(1)
 dataset_size = 128
 X = rdm.rand(dataset_size, 2)
 
-Y = [ [int(x1+x2 < 1)] for (x1, x2) in X]
+Y = [[int(x1 + x2 < 1)] for (x1, x2) in X]
 
 with tf.Session() as sess:
     # init_op = tf.initialize_all_tables()
@@ -36,7 +36,7 @@ with tf.Session() as sess:
     STEPS = 5000
     for i in range(STEPS):
         start = (i * batch_size) % dataset_size
-        end = min(start+batch_size, dataset_size)
+        end = min(start + batch_size, dataset_size)
 
         sess.run(train_step,
                  feed_dict={x: X[start:end], y_: Y[start:end]})
@@ -48,4 +48,3 @@ with tf.Session() as sess:
 
     print(sess.run(w1))
     print(sess.run(w2))
-
